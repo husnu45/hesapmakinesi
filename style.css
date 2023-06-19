@@ -1,0 +1,104 @@
+html,body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	font-family: 'Noto Serif', serif;
+}
+*{box-sizing:border-box;font: bold 14px Arial, sans-serif;}
+
+h1{
+	font-size:40px;
+	text-align:center;
+	margin-bottom:110px;
+	background:#333333;
+	color:white;
+	margin-top:0;
+	padding:20px;
+	
+}
+
+.ana-div{
+	 width:290px;
+	 margin:0 auto;
+	 background:#040a87;
+	 height:310px;
+	 box-shadow:2px 2px 2px gray;
+	 padding:15px;
+	 border-bottom:5px solid #4eeef082;
+     border-radius:4px;	
+     position:relative;	 
+}
+
+.ekran-div,.sayilar-div{
+	  padding:0;
+	  margin:0;
+}
+
+.ekran{
+	
+	color:rgb(241, 239, 239);
+	height:45px;
+	width:58px;
+  margin-left:8px;
+	border-radius:4px;
+	text-align:center;
+	font-weight:bold;
+	font-family: 'Times New Roman', Times, serif;
+	margin-bottom:8px;
+  width:182px;
+	background:#050506;
+   border-top:10px solid #58aaed;
+  overflow:hidden;
+  list-style:none;
+}
+
+.temizle{
+    width:60px;
+	background:#bb5656;
+	padding:10px 17px;
+	position:absolute;
+	border-radius:3px;
+	left:215px;
+	top:18px;
+	color:rgb(248, 245, 245);
+	cursor:pointer;
+	text-align:center;
+}
+
+
+.sayilar-div li{
+	 list-style:none;
+	 float:left;
+     width:52px;
+    background:white;
+	margin:9px 5px;
+	padding:10px;
+	border-bottom:4px solid #828A9B;
+	border-radius:5px;
+	color:#0d0c0c;
+	text-align:center;
+	transition:.2s;
+	cursor:pointer;
+}
+
+.sayilar-div li:hover{
+	background: #44B3C2;
+	border-bottom: 4px solid #336699;
+	color: white;
+}
+
+#esittir{
+	background:#748503;
+	color:white;
+}
+
+#esittir:hover{
+	background: #0b9104;
+	border-bottom: 4px solid #23b32f;
+	
+}
+
+#temizle:hover{
+    background: red;
+}
